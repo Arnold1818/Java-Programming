@@ -5,7 +5,7 @@ class TextInput {
         // creating an object of Scanner class
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your name: ");
-        String myString = input.next();
+        String myString = input.nextLine();
         System.out.println("You entered = " + myString);
 
         // closing the scanner object
